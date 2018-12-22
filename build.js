@@ -19,39 +19,39 @@ const formatSocialLink = (link, username, color) =>
 
 const data = [
   {
-    label: chalk.white.bold('Michael Stramel'),
+    label: chalk.white.bold('Hadeeb Farhan'),
     value: '',
   },
   {
     label: '',
     value:
       chalk.white('Software Engineer') +
-      chalk.gray(' @ Coolfire Solutions') +
+      chalk.gray(' @ Paytm Smart Retail') +
       newline,
   },
   {
     label: formatLabel('GitHub'),
-    value: formatSocialLink('https://github.com/', 'stramel', chalk.white),
+    value: formatSocialLink('https://github.com/', 'hadeeb', chalk.white),
   },
   {
     label: formatLabel('npm'),
-    value: formatSocialLink('https://npmjs.com/~', 'stramel89', chalk.red),
+    value: formatSocialLink('https://npmjs.com/~', 'hadeeb', chalk.red),
   },
   {
     label: formatLabel('Twitter'),
-    value: formatSocialLink('https://twitter.com/', 'stramel89', chalk.cyan),
+    value: formatSocialLink('https://twitter.com/', 'hadeebfarhan', chalk.cyan),
   },
   {
     label: formatLabel('LinkedIn'),
-    value: formatSocialLink('https://linkedin.com/in/', 'stramel', chalk.blue),
+    value: formatSocialLink('https://linkedin.com/in/', 'farhan23', chalk.blue),
   },
   {
     label: formatLabel('Website'),
-    value: 'COMING SOON',
+    value: 'https://hadeeb.me',
   },
   {
     label: newline + chalk.cyan(leftPad('$', 13)),
-    value: chalk.white('npx @stramel/card'),
+    value: chalk.white('npx @hadeeb/card'),
   },
 ]
 

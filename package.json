@@ -1,10 +1,10 @@
 {
-  "name": "@stramel/card",
+  "name": "@hadeeb/card",
   "version": "1.0.0",
-  "description": "A personal card for Michael Stramel (@stramel89)",
-  "main": "/bin/card.js",
+  "description": "A personal card for Hadeeb Farhan (@hadeeb)",
+  "main": "./bin/card.js",
   "bin": {
-    "stramel": "./bin/card.js"
+    "hadeeb": "./bin/card.js"
   },
   "files": [
     "bin/card.js",
@@ -12,7 +12,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/stramel/card.git"
+    "url": "https://github.com/hadeeb/card.git"
   },
   "scripts": {
     "prepublish": "npm run build",
@@ -29,7 +29,7 @@
     "npx card",
     "business card"
   ],
-  "author": "Michael Stramel <m.stramel89@gmail.com>",
+  "author": "Hadeeb Farhan <hadeebfarhan1@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "boxen": "^2.1.0",
